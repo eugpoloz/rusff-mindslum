@@ -1,0 +1,2274 @@
+#poll-special table {
+  width: 100% !important;
+}
+
+#poll-special table tbody td:nth-of-type(2) {
+  padding: 0 1em 0 2em !important;
+}
+
+#poll-special table tbody td:nth-of-type(3) {
+  width: 15% !important;
+  text-align: right !important;
+}
+
+.punbb td span.youposted {
+  font-weight: bold;
+  margin-left: -1em;
+  position: absolute;
+}
+
+.punbb td .modlist {
+  display: block;
+  padding-top: 0.3em
+}
+
+.punbb .main td {
+  border: none;
+  padding: 2em 0.5em;
+  line-height: 1.5;
+}
+
+.punbb .post-content td {
+  border: none !important;
+  padding: 0 0.5em !important;
+}
+
+.punbb .post-content td:first-of-type {
+  padding-left: 0 !important;
+}
+
+.punbb .post-content td:last-of-type {
+  padding-right: 0 !important;
+}
+
+.punbb .main th {
+  border: none;
+  padding: 1em 0.5em;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.punbb .main .tcl {
+  border: none
+}
+
+.punbb tbody.hasicon td.tcl {
+  padding-left: 0;
+}
+
+.punbb div.icon {
+  display: block;
+  position: absolute;
+  float: left;
+  border: none;
+  height: 85px;
+  width: 60px;
+  padding: 0;
+}
+
+/* #pun-index .inew div.icon {
+  background-color: #eb6e80;
+} */
+
+.punbb .iclosed div.icon {
+/*   background: url(http://co.forum4.ru/files/0017/3c/7c/84122.png); */
+}
+
+.punbb .isticky div.icon {
+/*   background: url(http://co.forum4.ru/files/0017/3c/7c/50551.png); */
+}
+
+.punbb .inew div.icon {
+  background: url(http://co.forum4.ru/files/0017/3c/7c/84877.png);
+}
+
+.punbb div.tclcon {
+/*   margin-left: 5em; */
+  line-height: 1.5;
+}
+
+#pun-index div.tclcon {
+  position: relative;
+  z-index: 5;
+/*   top: -5px; */
+/*   font: 0.8rem Verdana; */
+/*   text-transform: uppercase; */
+/*   padding: 1em; */
+/*   margin-left: 6em; */
+/*   background: #edf0e4;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5); */
+}
+
+#pun-modviewforum div.icon, #pun-searchtopics div.icon {
+  margin: -1em 0 0 -6em;
+}
+
+#pun-modviewforum .tcl, #pun-searchtopics .tcl {
+  padding-left: 5em;
+}
+
+#pun-modviewforum th.tcl, #pun-searchtopics th.tcl {
+  padding-left: 6em;
+}
+
+/* Topics
+-------------------------------------------------------------*/
+.punbb .post .container, .punbb .post h3 {
+  border: none;
+}
+
+.punbb .post h3 {
+  font-size: 1.2rem;
+  line-height: 1;
+  position: relative;
+  z-index: 5;
+  top: 1em;
+  box-sizing: border-box;
+  padding: 0.5em 2em 0.5em 1em;
+  display: block;
+  margin: 1em 0 0 19.5em;
+  border: none;
+}
+
+#pun-searchposts .post h3 span a {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1.1;
+  position: relative;
+  top: 2px;
+}
+
+#pun-searchposts .post h3 span a:nth-of-type(1) {
+  text-overflow: ellipsis;
+  max-width: 120px;
+}
+
+#pun-searchposts .post h3 span a:nth-of-type(2) {
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
+.punbb .post h3 strong {
+  float: right;
+  width: auto;
+  text-align: right;
+}
+
+.punbb .post h3 strong:before {
+  content: '#';
+}
+
+#pun-searchposts .post h3 strong {
+  position: relative;
+  top: 2px;
+}
+
+.punbb .post .post-author {
+  float: left;
+  width: 17.5em;
+  margin: -1.5em 0 0 1em;
+  overflow: hidden;
+  border-radius: 10px;
+/*   background: #edf0e4;
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5); */
+}
+
+.punbb .post .post-author ul {
+  padding: 0 0 0.5em;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.punbb .post-author li {
+  line-height: 1.4;
+  padding: 0 1em;
+  text-align: left;
+}
+
+.punbb .post-author .pa-author, #viewprofile #profile-left #profile-name strong {
+  font: 2.6rem BravoSC, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 10px;
+}
+
+#viewprofile #profile-left #profile-name strong {
+  padding-top: 5px;
+}
+
+
+
+.punbb .pa-avatar.item2 {
+  margin: 1em auto 0.5em;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.punbb .pa-avatar.item2 img {
+  box-sizing: content-box;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  border: 2px solid #a2a18c;
+/*   -webkit-border-image: 
+    -webkit-gradient(linear, 0 0, 0 100%, from(#a2a18c), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: 
+    -webkit-linear-gradient(#a2a18c, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient(#a2a18c, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image:
+    -o-linear-gradient(#a2a18c, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), #a2a18c) 1 100%;
+  border-image-slice: 1; */
+}
+
+.punbb .post-author .pa-online {
+  line-height: 1.5;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.punbb .post-author .pa-online strong, .punbb .post-author .pa-title,
+#viewprofile #profile-left #profile-title {
+  font: 0.7rem Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 1;
+} 
+
+.punbb .post-author .pa-title, #viewprofile #profile-left #profile-title {
+  line-height: 1.3;
+  margin: 0 1.5em 0.5em;
+  padding: 0.5em;
+  text-align: center;
+/*   background-color: #eb6e80;
+  color: #dce0d2; */
+}
+
+.punbb .post-author .pa-fld1, #viewprofile #profile-right li div {
+  text-align: center;
+  font: 1rem Verdana, sans-serif;
+}
+
+.punbb .post-author .pa-fld1 div p::first-letter,
+#viewprofile #profile-right li div div p::first-letter {
+  text-transform: uppercase;
+}
+
+.punbb .post-author .pa-fld1 div p, #viewprofile #profile-right li div div p {
+  line-height: 1.25;
+}
+
+.punbb .post-author .pa-fld1:before, .punbb .post-author .pa-fld1:after {
+  display: block;
+  content: '';
+  border-top: 2px solid #dce0d2;
+  margin: 5px 0;
+}
+
+.punbb .post-author .pa-fld1 div > a:first-of-type,
+#viewprofile #profile-right strong > div > a:first-of-type {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-top: 0.1em;
+  margin: 0 0 0.5em;
+}
+
+#viewprofile #profile-right strong > div > a:first-of-type {
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: 0;
+}
+
+.punbb .post-author .pa-fld1 div div,
+#viewprofile #profile-right strong > div div {
+  font: 0.7rem Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 1;
+  color: #7f807a;
+  padding: 0.5em;
+  margin: 0.5em 0 0;
+}
+
+#viewprofile #profile-right strong > div div {
+  padding-left: 0;
+}
+
+.punbb .post-author .pa-fld1 div div:before, .punbb .post-author .pa-fld1 div div:after,
+#viewprofile #profile-right strong > div div:before,
+#viewprofile #profile-right strong > div div:after {
+  font-size: 1.1rem;
+  position: relative;
+  top: 1px;
+  content: '\2600';
+  padding: 0 0.5em;
+}
+
+#viewprofile #profile-right strong > div div:before {
+  padding-left: 0;
+}
+
+/* ËÇ ìàñêè */
+.punbb .post-author .pa-fld1 .masked-char {
+  width: 190px;
+}
+
+.punbb .post-author .pa-fld1 .masked-char a:first-of-type {
+  margin-top: 8px;
+}
+
+.punbb .post-author .pa-fld1 .masked-char-button {
+  cursor: pointer;
+  display: block;
+  font: 0.7rem Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 1;
+  background: #dce0d2;
+  padding: 5px 0;
+}
+
+.punbb .post-author .pa-replies {
+  text-align: center;
+  padding: 0.5em 1em;
+}
+
+.punbb .post-body {
+  margin-left: 19.5em;
+  margin-right: 1em;
+  border: none;
+  position: relative;
+  top: -1.5em;
+  padding: 1.5em 0 0.5em 0;
+  background: #edf0e4;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+}
+
+.punbb .post-box {
+  padding: 2em 1em 1em;
+}
+
+.punbb fieldset .post-box {
+  margin-bottom: 1em;
+}
+
+.punbb .post-links {
+  padding: 0.5em 1em;
+  border: none;
+}
+
+.punbb .post-links ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -moz-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-content: flex-end;
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
+    -webkit-box-align: end;
+    -moz-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.punbb .post-links li {
+  display: inline;
+  margin: 0 0.25em;
+}
+
+.pl-reports {
+  -webkit-box-ordinal-group: 3;
+  -moz-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.pl-email {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1
+}
+
+.pl-delete, .pl-quote, .pl-edit {
+  -webkit-box-ordinal-group: 4;
+  -moz-box-ordinal-group: 4;
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+.pl-email:nth-of-type(2) {
+  margin-right: auto !important;
+}
+
+#pun-searchposts  .post-links li:first-of-type,
+div[id*='pun-multi'] .post-links li:first-of-type {
+  margin-left: auto;
+}
+
+.punbb .clearer {
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+/* Moderator Menu and Else
+-------------------------------------------------------------*/
+.punbb .modmenu .container {
+  margin-top: 1.5em;
+  padding: 0.5em 0;
+  text-align: right;
+}
+
+.punbb .modmenu strong, .punbb .modmenu a {
+  height: 1.8em;
+  line-height: 1.8;
+}
+
+.punbb .modmenu .container strong {
+  float: left;
+}
+
+.punbb .modmenu input {
+  margin-left: 1em;
+}
+
+div[id*='pun-multi'] form[method='post'] {
+  padding: 0;
+}
+
+div[id*='pun-multi'] .modmenu .container {
+  padding: 0.5em 1.5em;
+}
+
+div[id*='pun-multi'] .checkfield label {
+  position: relative;
+  top: -2px;
+}
+
+#topic-users-in a:after {
+  content: ',';
+  color: black;
+}
+
+/* Message boxes
+-------------------------------------------------------------*/
+.punbb .info .container {
+  padding: 0.8em 1.5em;
+}
+
+.punbb .info .container .backlink {
+  padding-top: 0.8em;
+}
+
+/* MESSAGES
+-------------------------------------------------------------*/
+#pun-messages #post-form .checkfield {
+  display: inline-block !important;
+  width: 100% !important;
+  padding: 0.5em 0;
+  box-sizing: border-box;
+  text-align: right;
+}
+
+#pun-messages .post h3 {
+  margin: 0;
+  text-align: center;
+  padding: 0 0 1em 0;
+  font: 0.7rem Verdana, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  top: -3em;
+}
+
+#pun-messages .post h3 span {
+  padding: 0 0 0.25em 0;
+  color: #eb6e80;
+}
+
+#pun-messages .inputfield {
+  text-align: center;
+}
+
+#pun-messages .inputfield:first-of-type {
+  margin-top: 1em;
+}
+
+#pun-messages #messages .pmtcl1 {
+  padding-left: 0 !important;
+  width: 25%;
+}
+
+#messages fieldset {
+  padding: 0 0 0 1em;
+}
+
+#messages .postlink input.button {
+  float: right;
+  text-align: right;
+  margin: 0.1em 0;
+}
+
+#pun-messages .post-links ul li.pl-email {
+  margin-left: auto !important;
+}
+
+#messages div.icon {
+  margin-left: 0;
+}
+
+#messages div.icon:after {
+  border: none;
+  width: 22px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  box-shadow: 0px -1px 0px 0px rgb(122, 122, 122);
+  margin: 53px 0 0 2px;
+}
+
+#messages .tclcon {
+  padding-left: 1em;
+}
+
+#messages .pmtc22 {
+  height: auto;
+}
+
+#messages .pmtc22 a {
+  white-space: pre-wrap;              /* CSS3 browsers  */
+  white-space: -moz-pre-wrap !important; /* 1999+ Mozilla  */
+  white-space: -pre-wrap;             /* Opera 4 thru 6 */
+  white-space: -o-pre-wrap;            /* Opera 7 and up */
+}
+
+#messages .pmtc24 {
+  padding: 0.9em 1em 0.5em !important;
+}
+
+#pun-messages fieldset:first-of-type {
+  position: relative;
+}
+
+#pun-messages fieldset:first-of-type legend {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font: 2.5rem BravoSC, sans-serif;
+  line-height: 1;
+  padding: 0;
+  margin: 0 auto 0.5em 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#pun-messages .post-box {
+  margin: 0;
+  padding: 1em;
+}
+
+#pun-messages .post-body {
+  margin: 2.5em 0 0;
+  padding: 0;
+}
+
+#messages .linksb {
+  padding: 1em 0.5em 1em 0;
+}
+
+#pun-messages .post-author {
+  width: 100%;
+  float: none;
+  padding: 5px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+}
+
+ #pun-messages .post-author ul {
+  padding: 0 5px 0 110px;
+  position: relative;
+  min-height: 105px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -moz-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-box-align: start;
+  -moz-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+#pun-messages .post-author li {
+  width: 100%;
+  text-align: right;
+  position: relative;
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#pun-messages .post-author .pa-avatar {
+  padding: 0;
+  width: fit-content;
+  text-align: left;
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  margin: 0;
+  position: absolute;
+  left: 5px;
+  top: 3px;
+}
+
+#pun-messages .post-author .pa-avatar img {
+  width: 91px;
+  height: auto;
+  position: relative;
+  top: 1px;
+}
+
+#pun-messages .post-author .pa-author {
+  position: relative;
+  padding: 0;
+  margin: -5px 0 -5px;
+  text-align: left;
+}
+
+#pun-messages .post-author .pa-title {
+  position: relative;
+  line-height: 7px;
+  padding: 0.7em 1em;
+  margin: 0 0 0.75em 0;
+  text-align: left;
+}
+
+#pun-messages .post-author .pa-online {
+  margin: 0.3em 0 0;
+  text-align: right;
+}
+
+#pun-messages .post-author .pa-reg, #pun-messages .post-author .pa-posts {
+  font-size: 1rem;
+}
+
+/* Profile
+-------------------------------------------------------------*/
+#profile .container {
+  margin: 0 0 1em;
+  padding-left: 19em;
+  line-height: 1.5;
+}
+
+#profile fieldset * {
+  line-height: 1.5;
+}
+
+#profile em {
+  display: block;
+  margin: -0.5em 0 1em;
+}
+
+#profilenav {
+  float: left;
+  position: relative;
+  top: 1em;
+  width: 17em;
+  margin-left: -19em;
+  display: inline;
+  }
+
+#profilenav li {
+  padding-bottom: 1em;
+  font-weight: bold;
+}
+
+#viewprofile ul, #profilenav ul {
+  padding: 1em 1em 0.5em 1em;
+  box-sizing: border-box;
+}
+
+#viewprofile h2, #profilenav h2 {
+  padding: 0;
+  margin: 0 auto 0.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#viewprofile {
+  position: relative;
+}
+
+#viewprofile #profile-left {
+  display: block;
+  width: auto;
+  position: relative;
+  text-align: center;
+  border-radius: 10px;
+  background: #edf0e4;
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  padding: 0.5em 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+/* ???????????! */
+#viewprofile li, #setmods dl {
+  padding: 0 0 0 16em;
+  margin-bottom: 0.2em;
+}
+
+#viewprofile li span {
+  float: left;
+  text-align: right;
+  width: 18em;
+  margin-left: -15em;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+
+#setmods dt {
+  float: left;
+  width: 14em;
+  margin-left: -16em;
+  padding: 0.8em 1em;
+  font-weight: bold;
+  display: inline;
+}
+
+#viewprofile li strong, #viewprofile li div, #setmods dd {
+  display: block;
+  padding: 0.5em 0.5em;
+  font-weight: normal;
+}
+
+#viewprofile #profile-right li div {
+  padding: 0 1.5em;
+  text-align: left;
+}
+
+.punbb img.avatardemo {
+  float: right;
+  margin: 0 0 1em 2em
+}
+
+#profile-uploads, #profile-uploads tbody, #profile-uploads tr {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+#profile-uploads td {
+    display: inline-block !important;
+    margin: 0.25em 0.25em;
+    min-width: 100px !important;
+}
+
+#profile-uploads td:first-of-type {
+    margin-left: 0;
+}
+
+#profile-uploads td:last-of-type {
+    margin-right: 0;
+}
+
+#profile-uploads input[type=checkbox] {
+    margin: 5px 0 0 5px !important;
+}
+
+#profile-uploads {
+    margin-bottom: 1em;
+}
+
+/* #profile8 fieldset:nth-of-type(5), #profile9 fieldset .fs-box {
+    display: none;    
+}
+
+#profile9 fieldset:nth-of-type(2) legend:after {
+   display: block;
+   margin: 0.5em 0 0 0;
+   content: 'Ôóíêöèÿ îòêëþ÷åíà.';
+   font: 1.4rem georgia, serif;
+   text-transform: none;
+}
+
+#profile #profilenav .item9 {
+    display: none !important;
+} */
+
+/* User list
+-------------------------------------------------------------*/
+#pun-userlist .formal, #pun-userlist .formal .container {
+  border: none;
+}
+
+#pun-userlist .usertable .container {
+  padding: 1em 0;
+}
+
+/* Page navigation
+-------------------------------------------------------------*/
+
+/* ???????????! */
+#pun-pagelinks {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  margin: 0;
+  border: none;
+  padding: 0;
+  width: 100%;
+}
+
+#pun-pagelinks .container {
+  background: transparent;
+  border: none;
+  padding: 0
+}
+
+#pun-pagelinks .container li {
+  display: inline
+}
+
+#pun-pagelinks li a, #pun-pagelinks a:link, #pun-pagelinks a:hover {
+  height: 2em;
+  line-height: 2em;
+  padding: 0;
+  font-size: 1.2rem;
+  margin-left: -9999px;
+  display: block;
+  float:left;
+  width: 100%;
+}
+
+#pun-pagelinks a:active, #pun-pagelinks a:focus {
+  position: relative;
+  margin: 0
+}
+
+#pun-pagelinks li a span {
+  display: block;
+  margin: 0 1em
+}
+
+/* Breadcrumbs and Breaks
+-------------------------------------------------------------*/
+#pun-crumbs1, #pun-crumbs2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  overflow: hidden;
+/*   background-color: #fff;
+  background-clip: padding-box;
+  border-top: 2px solid transparent; */
+}
+
+#pun-crumbs1 {
+  margin-bottom: 2em;
+}
+
+#pun-crumbs2 p.container, #pun-crumbs1 p.container {
+  border: none;
+  padding: 1em 1.5em;
+  font-size: 1.2rem;
+}
+
+#pun-break1, #pun-break4 {
+  display: none;
+  height: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Statistics
+-------------------------------------------------------------*/
+#pun-stats.section {
+  padding: 1.5em 0 5.1em;
+  background: url(http://co.forum4.ru/files/0017/ce/9f/56621.jpg) center bottom no-repeat;
+}
+
+#pun-stats .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 3.7em 0 1.5em;
+  margin: 0;
+  font-size: 1rem;
+  font-family: Georgia, serif;
+  color: #395e59;
+}
+
+#pun-stats li {
+  line-height: 1.2;
+}
+
+#pun-stats li.item1, #pun-stats li.item2,
+#pun-stats li.item3, #pun-stats li.item4 {
+  flex: 1 1 50%;
+}
+
+#pun-stats li.item1 {
+  order: 2;
+  text-align: right;
+}
+#pun-stats li.item2 {
+  order: 4;
+  text-align: right;
+}
+#pun-stats li.item3 {
+  order: 1;
+}
+#pun-stats li.item4 {
+  order: 3;
+}
+
+li#onlinelist {
+  flex: 1 1 100%;
+  order: 5;
+}
+
+li#onlinelist div span a {
+  font-weight: 700;
+}
+
+li#onlinelist div span a:not(:last-of-type):after {
+  font-weight: 400;
+  content: ', ';
+  pointer-events: none;
+}
+
+li#onlinelist:nth-child(6) {
+  margin: 0;
+}
+
+/* Quick Jump - About
+-------------------------------------------------------------*/
+#pun-qjump {
+  margin: 0;
+  border: none;
+  width: 50%;
+  position: relative;
+  float: left;
+}
+
+#pun-qjump .container {
+  border: none;
+  background: transparent;
+  padding: 1em 0;
+  }
+
+#pun-about {
+  margin: 0;
+}
+
+#pun-about .container {
+  text-align: right;
+  line-height: 1.5;
+  padding: 1em 1.5em;
+}
+
+/* Help file
+-------------------------------------------------------------*/
+#pun-help .formal .info-box h3.legend {
+  padding-bottom: 0;
+  margin-bottom: 0.8em;
+}
+
+#pun-help .formal .info-box h3.legend span {
+  padding-bottom: 0.6em;
+  display: block;
+  font-size: 1.2rem;
+}
+
+#pun-help .formal p, #pun-help .formal dd {
+  margin-bottom: 1em
+}
+
+#pun-help .formal ul, #pun-help .formal dl {
+  padding: 0 0 0 1em
+  }
+
+#pun-help .formal li {
+  padding: 0;
+  line-height: 1.3;
+  }
+
+#pun-help .formal li * {
+  vertical-align: text-top
+}
+
+#pun-help .formal dt span {
+  font: 1.4rem/120% monaco, "bitstream vera sans mono", "courier new", courier, monospace
+}
+
+#pun-help .formal .parsedmsg, #pun-help .formal .parsedmsg .incode {
+  padding-bottom: 0;
+}
+
+/* Post Preview
+-------------------------------------------------------------*/
+#pun-edit #post {
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+fieldset#post-preview {
+  padding: 0;
+  margin: 2em 0 1em 0;
+  box-sizing: border-box !important;
+  background: #edf0e4;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+}
+
+fieldset#post-preview legend {
+    display: none !important;
+}
+
+fieldset#post-preview .fs-box {
+    width: 100%;
+    box-sizing: border-box !important;
+    margin: 0 auto;
+}
+
+fieldset#post-preview .post-box {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+fieldset#post-preview .post-content {
+    width: 100%;
+    margin: auto;
+    padding: 0.5em 1.5em;
+    box-sizing: border-box !important;
+}
+
+/* Ñêðèïò ðàñøèðåííîãî ïåðåíîñà ñîîáùåíèé */
+.pgl, .forum_name {
+  margin-bottom: .8em;
+}
+
+/* Form Buttons and Textarea
+-------------------------------------------------------------*/
+input:not([type='radio']):not([type="checkbox"]), select, textarea {
+  margin: 0 0 0.75em 0 !important;
+  padding: 0.25em 0.5em 0.45em;
+  background: rgba(242, 244, 235, 1);
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  border: 2px solid #B8B9A6;
+}
+
+#keyboard-span input {
+  box-shadow: none;
+  margin: 0.1em !important;
+  padding: 0 0.5em !important;
+  box-sizing: border-box;
+  border: none;
+}
+
+#keyboard-span input:nth-of-type(13), #keyboard-span input:nth-of-type(14) {
+  position: relative;
+  top: 1px;
+}
+
+#keyboard-span input:nth-of-type(28), #keyboard-span input:nth-of-type(29) {
+  display: none;
+}
+
+del {
+  background-color: transparent;
+}
+
+textarea#main-reply {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto !important;
+  padding: 0.5em;
+  line-height: 1.25;
+  background: white;  background: rgba(242, 244, 235, 1);
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  border: 2px solid #B8B9A6;
+  -ms-text-size-adjust: 160%;
+  -moz-text-size-adjust: 160%;
+  -webkit-text-size-adjust: 160%;
+}
+
+label {
+  display: block;
+  line-height: 2 !important;
+  font-weight: bold;
+}
+
+.input + label, .checkfield > label,
+input[type='radio'] + label, input[type='checkbox'] + label  {
+  display: inline;
+  font-weight: normal;
+}
+
+input[type='radio'], input[type='checkbox'] {
+  position: relative;
+  top: 1px;
+}
+
+p > label + br {
+  display: none;
+}
+
+fieldset legend {
+  display: block;
+  width: 100%;
+}
+
+fieldset legend span {
+  padding: 0.5em 0 !important;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font: 2.6rem BravoSC, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 0 1em 0;
+}
+
+#pun-main fieldset:first-of-type legend span {
+  padding-top: 1em;
+}
+
+#pun-reputation input, #pun-report input,
+#video-area-actions a, #image-area-actions a,
+#changeProfile-area .maskButtons span ,
+.punbb .post-links li, .punbb .formsubmit input {
+  position: relative;
+  z-index: 5;
+  padding: 1.25em 1.5em;
+  background: #eb6e80;
+  border-radius: 5px;
+  font: 0.7rem Verdana, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5), inset 0px 5px 5px -5px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5), inset 0px 5px 5px -5px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5), inset 0px 5px 5px -5px rgba(255, 255, 255, 0.5);
+}
+
+#image-area-actions a,
+.punbb .formsubmit input {
+  margin: 0 0.75em 0 0 !important;
+}
+
+#video-area-actions a {
+  margin: 0 -0.75em 0 0 !important;
+}
+
+#image-area-actions {
+  padding: 1em 0 0.25em 0 !important;
+}
+
+#video-area-actions {
+  padding: 0 0 1em 0;
+}
+
+textarea#video-area-tinp, textarea#image-area-tinp {
+  margin-top: 1em !important;
+  border: none !important;
+}
+
+input + a, input + a + a {
+  margin-left: 1em !important;
+}
+
+#form-buttons {
+    margin: 2.5em 0 0.5em 0;
+}
+
+#form-buttons table, .punbb .formal textarea {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#form-buttons table {
+    text-align: center;
+    margin: 0 auto -1em;
+}
+
+#form-buttons td {
+    background: none !important;
+    display: inline-block;
+    min-height: 1.25em;
+    min-width: 1.25em;
+    text-align: center;
+    margin: -0.5em 1em 1.5em;
+}
+
+#form-buttons td img {
+    z-index: 10;
+    height: 1em !important;
+    position: relative;
+}
+
+#form-buttons td:before {
+  font-family: FontAwesome;
+  position: absolute;
+  margin-top: 0.5em;
+  margin-left: 0.15em;
+  font-size: 1.4rem;
+  z-index: 1;
+  color: #495443;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#button-font:before { content: '\f031'; }
+#button-size:before { content: '\f034'; }
+#button-bold:before { content: '\f032'; }
+#button-italic:before { content: '\f033'; }
+#button-underline:before { content: '\f0cd'; }
+#button-strike:before { content: '\f0cc'; }
+#button-left:before { content: '\f036'; }
+#button-center:before { content: '\f037'; }
+#button-right:before { content: '\f038'; }
+#button-link:before { content: '\f0c1'; }
+#button-spoiler:before { content: '\f0fe'; }
+#button-image:before { content: '\f083'; }
+#button-video:before { content: '\f03d'; }
+#button-hide:before { content: '\f023'; margin-left: 0.4em !important; }
+#button-quote:before { content: '\f10e'; }
+#button-code:before { content: '\f121'; }
+#button-color:before { content: '\f040'; }
+#button-table:before { content: '\f0ce'; }
+#button-smile:before { content: '\f118'; }
+#button-keyboard:before { content: '\f11c'; margin-left: 0 !important; }
+#button-addition:before { content: '\f150'; }
+#button-audio:before { content: '\f028';}
+#button-coub:before { content: '\f26c';}
+#button-changeProfile:before { content: '\f21b';}
+
+#font-area, #size-area, #color-area, #table-area, #smilies-area, #image-area, #imageup-area, #imageattach-area, #keyboard-area, #video-area, #addition-area, #changeProfile-area {
+  top: auto !important;
+  position: absolute;
+  display: none;
+  right: 1.4em !important;
+  margin-top: 1.4em;
+  margin: 1em 0;
+  padding: 1em;
+  background: #edf0e4;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.5);
+  padding: 1em 1em 0.5em !important;
+  z-index: 5;
+}
+
+#font-area, #size-area, #addition-area, #changeProfile-area {
+  width: auto !important;
+}
+
+#uploaded-images {
+  max-width: 343px;
+}
+
+#image-area {
+  width: 580px !important;
+}
+
+#pun-report .inner, #pun-reputation .inner, #pun-admin-award-form .inner {
+  background: #edf0e4;
+  border-radius: 10px;
+}
+
+#pun-report .inner h1, #pun-reputation .inner h1, #pun-admin-award-form .inner h1 {
+  margin-top: -10px;
+}
+
+#pun-report .tc2, #pun-report .tcl,
+#pun-reputation .tc2, #pun-reputation .tcl {
+  padding: 0.75em 1em 0.5em;
+}
+
+#pun-report .tc2, #pun-reputation .tc2 {
+  vertical-align: middle !important;
+}
+
+/* Links
+-------------------------------------------------------------*/
+.punbb a {
+  text-decoration: none;  
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#html-footer .copyright a, #html-footer .copyright a:visited,
+.punbb .post-links li a, .punbb .post-links li a:visited {
+  color: #dce0d2;
+}
+
+.punbb .post-author .pa-author a, .punbb .pa-author a, 
+#pun-ulinks a, #pun-ulinks a:visited,
+#pun-navlinks a, #pun-navlinks a:visited {
+  color: #000;
+}
+
+/* #navadmin a, #navadmin a:visited,
+#navadv a, #navadv a:visited {
+  color: #e44e40;
+} */
+
+#pun-messages .post-author .pa-author a,
+.punbb .post-links li a:hover, .punbb .post-links li a:focus, .punbb .post-links li a:active,
+#html-footer .copyright a:hover, #html-footer .copyright a:focus,  #html-footer .copyright a:active {
+  color: #3e3e3e;
+}
+
+#form-buttons td:hover:before, #form-buttons td:active:before,
+#form-buttons td:focus:before,
+.punbb a:link, .punbb a:visited {
+  color: #018e97;
+}
+
+.punbb a:hover, .punbb a:focus, .punbb a:active {
+  color: #e44e40;
+}
+
+.punbb .post-author .pa-author a:hover, .punbb .pa-author a:hover, 
+.punbb .post-author .pa-author a:focus, .punbb .pa-author a:focus, 
+.punbb .post-author .pa-author a:active, .punbb .pa-author a:active, 
+#pun-ulinks a:active, #pun-ulinks a:focus, #pun-ulinks a:hover {
+  color: #e44e40;
+}
+
+#pun-navlinks a:active, #pun-navlinks a:focus, #pun-navlinks a:hover {
+  color: #018e97;
+  box-shadow: 0px 3px 0px 0px #018e97;
+}
+
+#navadmin a:active, #navadmin a:focus, #navadmin a:hover,
+#navadv a:active, #navadv a:focus, #navadv a:hover {
+  color: #e44e40;
+  box-shadow: 0px 3px 0px 0px #e44e40;
+}
+
+
+/*********************************************************************************
+NEW BEAUTIFUL SLUM STYLES
+*********************************************************************************/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+/***
+MAIN STYLES
+***/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #071716;
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/69025.jpg);
+  background-position: left top;
+  font-size: 10px;
+  font-family: 'Cormorant', Verdana, sans-serif;
+  line-height: 1;
+}
+
+.punbb {
+  position: relative;
+  background-color: #fff;
+  background-image: url('http://co.forum4.ru/files/0017/ce/9f/60546.png');
+  width: 100%;
+  max-width: 100em;
+  margin: 0 auto;
+}
+
+/***
+FLEXBOX DEFINITIONS
+***/
+.punbb {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: auto;
+}
+
+#pun-navlinks {
+  -webkit-box-ordinal-group: 1;  
+  -moz-box-ordinal-group: 1;     
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+#html-header {
+  -webkit-box-ordinal-group: 2;  
+  -moz-box-ordinal-group: 2;     
+  -webkit-order: 2;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+#pun-status {
+  -webkit-box-ordinal-group: 3;  
+  -moz-box-ordinal-group: 3;     
+  -webkit-order: 3;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+#pun-ulinks {
+  -webkit-box-ordinal-group: 4;  
+  -moz-box-ordinal-group: 4;     
+  -webkit-order: 4;
+  -ms-flex-order: 4;
+  order: 4;
+  padding: 0;
+  margin: 0;
+}
+
+.punbb > * {
+  -webkit-box-ordinal-group: 4;  
+  -moz-box-ordinal-group: 4;     
+  -webkit-order: 4;
+  -ms-flex-order: 4;
+  order: 4;
+}
+
+/***
+NAVLINKS
+***/
+
+#pun-navlinks {
+  position: relative;
+  width: 100%;
+  height: 1em;
+  text-align: right;
+  background-color: #000;
+  z-index: 0;
+}
+
+#pun-navlinks li {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  margin: 0 1.2em;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  z-index: 10;
+}
+
+#pun-navlinks li:first-of-type {
+  margin-left: 0;
+}
+
+#pun-navlinks li a {
+  font-family: 'Cormorant', serif;
+  font-weight: 900;
+  font-size: 1.3em;
+  color: #395e59;
+  background: linear-gradient(to bottom, #395e59, #395e59 50%, #162a28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#pun-navlinks li a:hover,
+#pun-navlinks li a:focus,
+#pun-navlinks li a:active {
+  color: #efdf95;
+  background: linear-gradient(to bottom, #efdf95, #efdf95 50%, #794a16);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#navindex a:before {content:'Our Minds';}
+#navuserlist a:before {content:'We Are';}
+#navsearch a:before {content:'Treatments';}
+#navprofile a:before {content:'You Are';}
+#navpm a:before {content:'Mail';}
+#navadmin a:before {content:'Tweaks';}
+#navlogout a:before {content:'Farewell';}
+#navlogin a:before {content:'Welcome';}
+#navregister a:before {content:'Peek In';}
+
+/***
+ULINKS
+***/
+#pun-ulinks {
+  padding: 27px 0 0;
+  text-align: center;
+  background: url('http://co.forum4.ru/files/0017/ce/9f/53581.png') top center no-repeat;
+}
+
+#pun-ulinks .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#pun-ulinks li a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  margin-top: 8px;
+  min-height: 41px;
+  padding-left: 49px;
+  padding-right: 7px;
+  margin-right: 49px;
+  text-align: left;
+  border-radius: 21px 0 0 21px;
+}
+
+#pun-ulinks li a:hover {
+  color: #f0cb69;
+  background-color: #214641;
+}
+
+#pun-ulinks li a:before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  display: block;
+  width: 43px;
+  height: 43px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+#pun-ulinks li a:after {
+  display: block;
+  white-space: pre;
+  font-size: 5px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #395e59;
+  opacity: .27;
+  transition: inherit;
+}
+
+#pun-ulinks li a:hover:after {
+  color: #fff;
+}
+
+#pun-ulinks li.item2 a:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/42255.png);
+
+}
+
+#pun-ulinks li.item2 a:after {
+  content: 'Here’s my station \A But if you say just one \A word I’ll stay with you';
+}
+
+#pun-ulinks li.item7:nth-child(1n) a:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/13108.png);
+}
+
+#pun-ulinks li.item7:nth-child(1n) a:after {
+  content: 'Cuz I’ve got a lousy connection \A I promise my undying affection \A Can you hear me now, wait,';
+}
+
+#pun-ulinks li.item7:nth-child(3n) a:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/31441.png);
+}
+
+
+#pun-ulinks li a {
+  font-weight: 700;
+  font-size: 9px;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  color: #395e59;
+}
+
+/***
+HTML-HEADER
+***/
+#html-header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 8.5em;
+  background-color: #000;
+  z-index: 0;
+}
+
+/***
+PUN-STATUS
+***/
+#pun-status {
+  position: relative;
+  min-height: 7.5em;
+  color: #dbdbdb;
+}
+
+#pun-status, #pun-status .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#pun-status .container .item1 {
+  height: 50px;
+  padding-left: 60px;
+}
+
+#pun-status .container span {
+  position: relative;
+  display: inline-block;
+  font-size: 0;
+}
+
+#pun-status .container .item1:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border: 3px solid #e1e1e0;
+}
+
+#pun-status .container strong {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Minion Pro', sans-serif;
+  text-transform: lowercase;
+  font-variant: small-caps;
+}
+
+#pun-status .container strong:before {
+  display: block;
+  font-weight: 400;
+  white-space: pre;
+}
+
+#pun-status .container .item2 strong {
+  font-size: 10px;
+  transform: translateY(7px);
+}
+
+#pun-status .container .item1 strong:before {
+  content: 'That\'s you, \A';
+  margin: 0.3em 0;
+}
+
+#pun-status .container .item1 strong:after {
+  content: '?';
+  font-weight: 400;
+}
+
+#pun-status .container .item2 strong:before {
+  display: inline;
+  content: ' last time we met\A                  ';
+}
+
+/* last time we met */
+
+/***
+PUN-INDEX - FORUMS
+***/
+
+#pun-index table tbody.hasicon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 4px;
+}
+
+#pun-index tbody.hasicon tr {
+  position: relative;
+  display: block;
+  height: 153px;
+  width: 462px;
+  background-color: #f3f0eb;
+  margin-bottom: 6px;
+}
+
+#pun-index tbody.hasicon tr.alt1 {
+  margin-right: 24px;
+}
+
+#pun-index .tcr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+  height: 57px;
+  width: 262px;
+  padding: 0;
+  padding-left: 9px;
+  margin-top: 72px;
+  font-size: 11px;
+  color: #0e8777;
+  background-color: #dad7d1;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#pun-index .tcr a, #pun-index .tcr span {
+  width: 100%;
+  background-color: #dad7d1;
+}
+
+#pun-index .tcr:before {
+  content: 'No stories yet...';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+#pun-index .inew .tcr:before {
+  display: none;
+}
+
+#pun-index .tcr:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 4px;
+  height: 100%;
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/17209.jpg);
+  background-size: contain;
+}
+
+#pun-index .inew .tcr:after {
+  background: url(http://co.forum4.ru/files/0017/ce/9f/50267.jpg);
+}
+
+#pun-index .inew .tcr {
+  color: #ead87c;
+  background-color: #224742;
+}
+
+#pun-index .tcr:hover {
+  opacity: 1;
+}
+
+#pun-index .tcr a,
+#pun-index .tcr a:hover,
+#pun-index .tcr a:focus,
+#pun-index .tcr a:active {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #395e59;
+}
+
+#pun-index .inew .tcr a,
+#pun-index .inew .tcr a:hover,
+#pun-index .inew .tcr a:focus,
+#pun-index .inew .tcr a:active {
+  background-color: transparent;
+  color: #fff;
+}
+
+#pun-index .inew .tcr span {
+  background-color: transparent;
+} 
+
+#pun-index .tcr a:hover,
+#pun-index .tcr a:focus,
+#pun-index .tcr a:active {
+  text-decoration: underline;
+}
+
+#pun-index .tcr br {
+  display: none;
+}
+
+#pun-index .tcl {
+  position: relative;
+  display: flex;
+  height: 100%;
+  padding: 0 14px;
+}
+
+#pun-index .tcl:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 14px;
+  width: 50%;
+  height: 100%;
+  background: center right no-repeat;
+  opacity: .2
+}
+
+#pun-index .inew .tcl {
+  background-color: #f5f5f1;
+}
+
+#pun-index .inew .tcl:before {
+  opacity: .7;
+  background-color: #395e59;
+  background-blend-mode: screen;
+}
+
+/* GODS of the modern age */
+#pun-index #forum_f15 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/98925.jpg);
+}
+/* HUMAN Privilege */
+#pun-index #forum_f7 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/36218.jpg);
+}
+/* IMMORTALS */
+#pun-index #forum_f1 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/35739.jpg);
+}
+/* HELL'S Kitchen */
+#pun-index #forum_f13 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/62138.jpg);
+}
+/* SECRET Wood */
+#pun-index #forum_f12 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/94874.jpg);
+}
+/* DURHAM Nights */
+#pun-index #forum_f18 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/60891.jpg);
+}
+/* DC */
+#pun-index #forum_f17 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/65469.jpg);
+}
+/* STAR Wars */
+#pun-index #forum_f19 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/57999.jpg);
+}
+/* KANDREYN */
+#pun-index #forum_f23 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/84720.jpg);
+}
+/* VTM */
+#pun-index #forum_f14 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/69448.jpg);
+}
+/* MARVEL */
+#pun-index #forum_f21 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/86754.jpg);
+}
+/* LAST Chance */
+#pun-index #forum_f22 .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/65556.jpg);
+}
+
+#pun-index .tclcon {
+  padding-top: 74px;
+  max-width: 230px;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  color: #395e59;
+}
+
+#pun-index .tclcon h3 {
+  position: absolute;
+  top: 0;
+}
+
+#pun-index .tclcon h3 a {
+  display: block;
+  padding-top: 20px;
+  font-weight: 300;
+  font-size: 0;
+  line-height: 0;
+  color: #395e59;
+}
+
+#pun-index .tclcon h3 a:before {
+  font-size: 40px;
+  line-height: 30px;
+  font-family: 'IM Fell English', serif;
+}
+
+#pun-index .tclcon h3 a:after {
+  display: block;
+  font-weight: 500;
+  font-family: 'Cormorant', serif;
+  white-space: pre;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+#pun-index .icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 14px;
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/80450.jpg);
+}
+
+#pun-index .inew .icon {
+  background: url(http://co.forum4.ru/files/0017/ce/9f/20333.jpg);
+}
+
+/***
+FORUM NAMES
+***/
+/* CHARS */
+#pun-index #forum_f8 .tclcon h3 a:before {
+  content: 'Characters';
+}
+/* HUMAN PRIVILEGE */
+#pun-index #forum_f7 .tclcon h3 a:before {
+  content: 'Human';
+}
+#pun-index #forum_f7 .tclcon h3 a:after {
+  content: 'privilege';
+  letter-spacing: 9.5px;
+}
+
+/* GODS OF THE MODERN AGE */
+#pun-index #forum_f15 .tclcon h3 a:before {
+  content: 'Gods';
+}
+#pun-index #forum_f15 .tclcon h3 a:after {
+  content: 'of the modern age';
+  font-size: 12px;
+}
+
+/* IMMORTALS */
+#pun-index #forum_f1 .tclcon h3 a:before {
+  content: 'Immor(t)als';
+  font-size: 26px;
+  letter-spacing: -2px;
+}
+#pun-index #forum_f1 .tclcon h3 a:after {
+  content: 'blues, booze, and bullets';
+  font-size: 12px;
+}
+
+/* HELL'S KITCHEN */
+#pun-index #forum_f13 .tclcon h3 a:before {
+  content: 'Hell\'s';
+}
+#pun-index #forum_f13 .tclcon h3 a:after {
+  content: 'kitchen';
+  letter-spacing: 12px;
+}
+
+/* SECRET WOOD */
+#pun-index #forum_f12 .tclcon h3 a:before {
+  content: 'Secret';
+  font-size: 35px;
+}
+#pun-index #forum_f12 .tclcon h3 a:after {
+  content: 'Wood';
+  letter-spacing: 28px;
+}
+
+/* DURHAM */
+#pun-index #forum_f18 .tclcon h3 a:before {
+  content: 'Durham';
+  font-size: 35px;
+}
+#pun-index #forum_f18 .tclcon h3 a:after {
+  content: 'Nights';
+  letter-spacing: 20px;
+}
+
+/* KANDREYN */
+#pun-index #forum_f23 .tclcon h3 a:before {
+  content: 'Kandreyn';
+  font-size: 25px;
+  line-height: 25px;
+}
+#pun-index #forum_f23 .tclcon h3 a:after {
+  content: 'The Dark Side of History';
+  font-size: 12px;
+  letter-spacing: -0.35px;
+}
+
+/* FAILURES */
+#pun-index #forum_f20 .tclcon h3 a:before {
+  content: 'Epic';
+}
+#pun-index #forum_f20 .tclcon h3 a:after {
+  content: 'Fail';
+  letter-spacing: 19px;
+}
+
+/* FAILURES */
+#pun-index #forum_f9 .tclcon h3 a:before {
+  content: 'Fables';
+}
+#pun-index #forum_f9 .tclcon h3 a:after {
+  content: 'By Vertigo';
+  font-size: 13px;
+  letter-spacing: 9px;
+}
+
+/* VTM */
+#pun-index #forum_f14 .tclcon h3 a:before {
+  content: 'VAMPIRE';
+  font-size: 35px;
+}
+#pun-index #forum_f14 .tclcon h3 a:after {
+  content: 'the masquerade';
+  font-size: 12px;
+  letter-spacing: 4.5px;
+}
+
+/* HP */
+#pun-index #forum_f10 .tclcon h3 a:before {
+  content: 'Magic';
+}
+#pun-index #forum_f10 .tclcon h3 a:after {
+  content: 'Britain';
+  letter-spacing: 11.5px;
+}
+
+/* DC */
+#pun-index #forum_f17 .tclcon h3 a:before {
+  content: 'DC';
+  font-size: 45px;
+}
+#pun-index #forum_f17 .tclcon h3 a:after {
+  content: 'Multiverse';
+  font-size: 12px;
+}
+
+/* SW */
+#pun-index #forum_f19 .tclcon h3 a:before {
+  content: 'Star';
+}
+#pun-index #forum_f19 .tclcon h3 a:after {
+  content: 'Wars';
+  letter-spacing: 20.5px;
+}
+
+/* MARVEL */
+#pun-index #forum_f21 .tclcon h3 a:before {
+  content: 'Marvel';
+  font-size: 35px;
+}
+#pun-index #forum_f21 .tclcon h3 a:after {
+  content: 'multiverse';
+  font-size: 12px;
+  letter-spacing: 9.3px;
+}
+
+/* LAST CHANCE */
+#pun-index #forum_f22 .tclcon h3 a:before {
+  content: 'Last';
+}
+#pun-index #forum_f22 .tclcon h3 a:after {
+  content: 'Chance';
+  letter-spacing: 6px;
+}
+
+/* MIND SLUM */
+#pun-index #forum_f4 .tclcon h3 a:before {
+  content: 'Mind';
+}
+#pun-index #forum_f4 .tclcon h3 a:after {
+  content: 'Slum';
+  letter-spacing: 24.5px;
+}
+
+/***
+HIDE UNNECCESSARY ELEMS 
+***/
+.divider,
+#pun-index .crumbs,
+#pun-navlinks h2, #pun-ulinks h2, #pun-status h2,
+.crumbs strong, .main h1, .category th,
+#title-logo-table,
+li#navawards, #pun-navlinks span,
+#pun-index .category h2,
+#pun-index table thead, #pun-index .tc2, #pun-index .tc3,
+#pun-stats h2, #pun-about, #pun-status .item3,
+#pun-ulinks .item3, #pun-ulinks .item4, #pun-ulinks .item5, #pun-ulinks .item6, #pun-ulinks .item7:nth-child(2) {
+  display: none !important;
+}

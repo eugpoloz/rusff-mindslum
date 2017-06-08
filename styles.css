@@ -325,7 +325,7 @@
   padding-left: 0;
 }
 
-/* ËÇ ìàñêè */
+/* &#203;&#199; &#236;&#224;&#241;&#234;&#232; */
 .punbb .post-author .pa-fld1 .masked-char {
   width: 190px;
 }
@@ -890,7 +890,7 @@ div[id*='pun-multi'] .checkfield label {
 #profile9 fieldset:nth-of-type(2) legend:after {
    display: block;
    margin: 0.5em 0 0 0;
-   content: 'Ôóíêöèÿ îòêëþ÷åíà.';
+   content: '&#212;&#243;&#237;&#234;&#246;&#232;&#255; &#238;&#242;&#234;&#235;&#254;&#247;&#229;&#237;&#224;.';
    font: 1.4rem georgia, serif;
    text-transform: none;
 }
@@ -1145,7 +1145,7 @@ fieldset#post-preview .post-content {
     box-sizing: border-box !important;
 }
 
-/* Ñêðèïò ðàñøèðåííîãî ïåðåíîñà ñîîáùåíèé */
+/* &#209;&#234;&#240;&#232;&#239;&#242; &#240;&#224;&#241;&#248;&#232;&#240;&#229;&#237;&#237;&#238;&#227;&#238; &#239;&#229;&#240;&#229;&#237;&#238;&#241;&#224; &#241;&#238;&#238;&#225;&#249;&#229;&#237;&#232;&#233; */
 .pgl, .forum_name {
   margin-bottom: .8em;
 }
@@ -1997,58 +1997,92 @@ PUN-INDEX - FORUMS
 }
 
 #pun-index .inew .tcl:before {
-  opacity: .7;
-  background-color: #395e59;
-  background-blend-mode: screen;
+  opacity: 1;
 }
 
 /* GODS of the modern age */
 #pun-index #forum_f15 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/98925.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/90261.png);
+}
+#pun-index #forum_f15 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/28151.png);
 }
 /* HUMAN Privilege */
 #pun-index #forum_f7 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/36218.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/95204.png);
+}
+#pun-index #forum_f7 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/17837.png);
 }
 /* IMMORTALS */
 #pun-index #forum_f1 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/35739.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/97283.png);
+}
+#pun-index #forum_f1 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/69055.png);
 }
 /* HELL'S Kitchen */
 #pun-index #forum_f13 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/62138.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/99040.png);
+}
+#pun-index #forum_f13 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/51992.jpg);
 }
 /* SECRET Wood */
 #pun-index #forum_f12 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/94874.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/68031.png);
+}
+#pun-index #forum_f12 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/27843.png);
 }
 /* DURHAM Nights */
 #pun-index #forum_f18 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/60891.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/54507.png);
+}
+#pun-index #forum_f18 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/96660.png);
 }
 /* DC */
 #pun-index #forum_f17 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/65469.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/73112.png);
+}
+#pun-index #forum_f17 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/42131.png);
 }
 /* STAR Wars */
 #pun-index #forum_f19 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/57999.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/97070.png);
+}
+#pun-index #forum_f19 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/80220.png);
 }
 /* KANDREYN */
 #pun-index #forum_f23 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/84720.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/43406.png);
+}
+#pun-index #forum_f23 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/66066.png);
 }
 /* VTM */
 #pun-index #forum_f14 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/69448.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/86293.png);
+}
+#pun-index #forum_f14 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/69617.png);
 }
 /* MARVEL */
 #pun-index #forum_f21 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/86754.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/94965.png);
+}
+#pun-index #forum_f21 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/69839.png);
 }
 /* LAST Chance */
 #pun-index #forum_f22 .tcl:before {
-  background-image: url(http://co.forum4.ru/files/0017/ce/9f/65556.jpg);
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/85683.png);
+}
+#pun-index #forum_f22 .inew .tcl:before {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/11419.png);
 }
 
 #pun-index .tclcon {
@@ -2498,7 +2532,7 @@ NEW BEAUTIFUL TOPICS
   margin-top: 1.5em;
 }
 
-#pun-crumbs2 {
+.punbb:not(#pun-index) #pun-crumbs2 {
   margin-bottom: 1.5em;
 }
 

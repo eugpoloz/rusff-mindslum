@@ -989,8 +989,7 @@ div[id*='pun-multi'] .checkfield label {
 /* Statistics
 -------------------------------------------------------------*/
 #pun-stats.section {
-  padding: 1.5em 0 5.1em;
-  background: url(http://co.forum4.ru/files/0017/ce/9f/56621.jpg) center bottom no-repeat;
+  padding: 1.5em 0;
 }
 
 #pun-stats .container {
@@ -1057,7 +1056,10 @@ li#onlinelist:nth-child(6) {
   }
 
 #pun-about {
+  display: block;
   margin: 0;
+  padding-bottom: 3.6em;
+  background: url(http://co.forum4.ru/files/0017/ce/9f/56621.jpg) center bottom no-repeat;
 }
 
 #pun-about .container {
@@ -1542,7 +1544,7 @@ body {
 .punbb {
   position: relative;
   background-color: #fff;
-  background-image: url('http://co.forum4.ru/files/0017/ce/9f/60546.png');
+  background: url('http://co.forum4.ru/files/0017/ce/9f/60546.png') center;
   width: 100%;
   max-width: 100em;
   margin: 0 auto;
@@ -2547,7 +2549,7 @@ HIDE UNNECCESSARY ELEMS
 li#navawards, #pun-navlinks span,
 #pun-index .category h2,
 #pun-index table thead, #pun-index .tc2, #pun-index .tc3,
-#pun-stats h2, #pun-about, #pun-status .item3,
+#pun-stats h2, #pun-status .item3,
 #pun-ulinks .item3, #pun-ulinks .item4, #pun-ulinks .item5, #pun-ulinks .item6, #pun-ulinks .item7:nth-child(2),
 .forum h2 .item1, .forum h2 .item2, .forum h2 {
   display: none !important;

@@ -1814,7 +1814,8 @@ PUN-STATUS
   font-size: 0;
 }
 
-#pun-status .container .item1:before {
+#pun-status .container .item1:before,
+#pun-status .container .greeting-icon {
   content: '';
   position: absolute;
   top: 0;
@@ -1824,6 +1825,10 @@ PUN-STATUS
   height: 50px;
   background-color: gray;
   border: 3px solid #e1e1e0;
+}
+
+.greeting-icon {
+  background-size: cover;
 }
 
 #pun-status .container strong {

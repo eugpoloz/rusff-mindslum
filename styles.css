@@ -2610,6 +2610,22 @@ NEW BEAUTIFUL TOPICS
 }
 
 /***
+CUSTOM SCROLLBAR
+***/
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+  background-color: #081516;
+}
+::-webkit-scrollbar-thumb {
+  background: url(http://co.forum4.ru/files/0017/ce/9f/92079.png), url(http://co.forum4.ru/files/0017/ce/9f/41050.png), url(http://co.forum4.ru/files/0017/ce/9f/96746.png);
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: top center, bottom center, center;
+  border-radius: 10px;
+}
+
+/***
 HIDE UNNECCESSARY ELEMS 
 ***/
 .divider, .acchide,

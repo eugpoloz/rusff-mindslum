@@ -156,21 +156,33 @@
 
 /* Topics
 -------------------------------------------------------------*/
+.punbb .topic {
+  max-width: 949px;
+}
+
 .punbb .post .container, .punbb .post h3 {
   border: none;
 }
 
-.punbb .post h3 {
-  font-size: 1.2rem;
-  line-height: 1;
+.punbb .post {
   position: relative;
-  z-index: 5;
-  top: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  background: #f3f0eb url(http://co.forum4.ru/files/0017/ce/9f/74968.png) center left repeat;
+  font-size: 14px;
+}
+
+.punbb .post h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: .5em 1rem .5em 25rem;
   box-sizing: border-box;
-  padding: 0.5em 2em 0.5em 1em;
-  display: block;
-  margin: 1em 0 0 19.5em;
-  border: none;
+  line-height: 1;
+  z-index: 1;
 }
 
 #pun-searchposts .post h3 span a {
@@ -207,48 +219,73 @@
   top: 2px;
 }
 
+.punbb .post .container {
+  display: inherit;
+  flex-direction: inherit;
+  flex-wrap: inherit;
+  width: 100%;
+}
+
+.punbb .post .post-body {
+  flex: 1 1 auto;
+  padding-bottom: 42px;
+}
+
 .punbb .post .post-author {
-  float: left;
-  width: 17.5em;
-  margin: -1.5em 0 0 1em;
+  flex: 0 0 22.5rem;
+  align-self: stretch;
+  width: 22.5em;
+  height: 100%;
+  padding: 0 1rem 42px 3rem;
   overflow: hidden;
-  border-radius: 10px;
-/*   background: #edf0e4;
-  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5); */
+  background: #fff url(http://co.forum4.ru/files/0017/ce/9f/32277.png) -1rem 18rem no-repeat;
+  z-index: 2;
 }
 
 .punbb .post .post-author ul {
-  padding: 0 0 0.5em;
+  padding: 0 0 0.5rem;
   line-height: 1.5;
   font-size: 1.1rem;
 }
 
 .punbb .post-author li {
   line-height: 1.4;
-  padding: 0 1em;
-  text-align: left;
+  padding: 0 1rem;
+  text-align: right;
 }
 
 .punbb .post-author .pa-author, #viewprofile #profile-left #profile-name strong {
-  font: 2.5rem Cormorant, sans-serif;
-  font-weight: bold;
-  text-align: center;
-  padding: 0 10px;
+  position: relative;
+  padding: 0 0 0.15rem;
+  font: 700 2.5rem/1 Cormorant, sans-serif;
+  text-align: right;
+}
+
+.punbb .post-author .pa-author a {
+  color: #000;
 }
 
 #viewprofile #profile-left #profile-name strong {
   padding-top: 5px;
 }
 
-
-
 .punbb .pa-avatar.item2 {
-  margin: 1em auto 0.5em;
+  margin: 1em auto 0.5rem;
   padding: 0;
   text-align: center;
   position: relative;
+  line-height: 1;
+  overflow: hidden;
+}
+
+.punbb .pa-avatar.item2:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #bfbdba;
 }
 
 .punbb .pa-avatar.item2 img {
@@ -258,8 +295,9 @@
   top: 0;
   left: 0;
   margin: 0;
-  border: 2px solid #a2a18c;
-/*   -webkit-border-image: 
+  max-width: 100%;
+  height: auto;
+  /*   -webkit-border-image: 
     -webkit-gradient(linear, 0 0, 0 100%, from(#a2a18c), to(rgba(0, 0, 0, 0))) 1 100%;
   -webkit-border-image: 
     -webkit-linear-gradient(#a2a18c, rgba(0, 0, 0, 0)) 1 100%;
@@ -277,25 +315,25 @@
   border: none;
   font-weight: bold;
   text-align: center;
-  margin: 0.5em 0;
+  margin: 0.5rem 0;
 }
 
 .punbb .post-author .pa-online strong, .punbb .post-author .pa-title,
 #viewprofile #profile-left #profile-title {
-  font: 0.7rem Verdana, sans-serif;
+  font: 700 0.7rem Cormorant, Verdana, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: bold;
   line-height: 1;
 } 
 
 .punbb .post-author .pa-title, #viewprofile #profile-left #profile-title {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem 0.3rem;
   line-height: 1.3;
-  margin: 0 1.5em 0.5em;
-  padding: 0.5em;
   text-align: center;
-/*   background-color: #eb6e80;
-  color: #dce0d2; */
+  color: #ead87c;
+  background-color: rgba(34, 71, 66, 1);
+  background: url(http://co.forum4.ru/files/0017/ce/9f/12969.jpg) left center;
 }
 
 .punbb .post-author .pa-fld1, #viewprofile #profile-right li div {
@@ -322,11 +360,11 @@
 .punbb .post-author .pa-fld1 div > a:first-of-type,
 #viewprofile #profile-right strong > div > a:first-of-type {
   display: block;
-  font-size: 1.1rem;
+  font-size: 11px;
   font-weight: bold;
   line-height: 1.5;
-  padding-top: 0.1em;
-  margin: 0 0 0.5em;
+  padding-top: 0.1rem;
+  margin: 0 0 0.5rem;
 }
 
 #viewprofile #profile-right strong > div > a:first-of-type {
@@ -358,7 +396,7 @@
   position: relative;
   top: 1px;
   content: '\2600';
-  padding: 0 0.5em;
+  padding: 0 0.5rem;
 }
 
 #viewprofile #profile-right strong > div div:before {
@@ -377,7 +415,7 @@
 .punbb .post-author .pa-fld1 .masked-char-button {
   cursor: pointer;
   display: block;
-  font: 0.7rem Verdana, sans-serif;
+  font: 7px Verdana, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
@@ -392,21 +430,29 @@
 }
 
 .punbb .post-body {
-  margin-left: 19.5em;
-  margin-right: 1em;
   border: none;
-  position: relative;
-  top: -1.5em;
-  padding: 1.5em 0 0.5em 0;
-  background: #edf0e4;
-  border-radius: 10px;
-  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  padding: 2em 0 0.5em 0;
 }
 
 .punbb .post-box {
-  padding: 2em 1em 1em;
+  padding: 1rem 2.5rem 42px;
+  font-family: Verdana, sans-serif;
+  line-height: 1.3;
+}
+
+.post-rating {
+  padding: 1.5em 0 0;
+  text-align: right;
+}
+
+.punbb div.post-rating p {
+  float: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+.punbb div.post-rating a, .punbb div.post-vote a {
+  font-size: 100% !Important;
 }
 
 .punbb fieldset .post-box {
@@ -414,7 +460,10 @@
 }
 
 .punbb .post-links {
-  padding: 0.5em 1em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1em 1em;
   border: none;
 }
 
@@ -1475,7 +1524,6 @@ input + a, input + a + a {
   color: #dce0d2;
 }
 
-.punbb .post-author .pa-author a, .punbb .pa-author a, 
 #pun-ulinks a, #pun-ulinks a:visited,
 #pun-navlinks a, #pun-navlinks a:visited {
   color: #000;
@@ -1502,12 +1550,16 @@ input + a, input + a + a {
   color: #ead87c;
   background-color: #204540;
 }
+ 
+#pun-ulinks a:active, #pun-ulinks a:focus, #pun-ulinks a:hover {
+  color: #ead87c;
+}
 
 .punbb .post-author .pa-author a:hover, .punbb .pa-author a:hover, 
 .punbb .post-author .pa-author a:focus, .punbb .pa-author a:focus, 
-.punbb .post-author .pa-author a:active, .punbb .pa-author a:active, 
-#pun-ulinks a:active, #pun-ulinks a:focus, #pun-ulinks a:hover {
-  color: #ead87c;
+.punbb .post-author .pa-author a:active, .punbb .pa-author a:active {
+  color: #0e8777;
+  background-color: transparent;
 }
 
 #pun-navlinks a:active, #pun-navlinks a:focus, #pun-navlinks a:hover {
@@ -1605,6 +1657,10 @@ body {
   font-size: 10px;
   font-family: 'Cormorant', Verdana, sans-serif;
   line-height: 1;
+}
+
+strong {
+  font-weight: 700;
 }
 
 .punbb {
@@ -2637,6 +2693,8 @@ li#navawards, #pun-navlinks span,
 #pun-index table thead, #pun-index .tc2, #pun-index .tc3,
 #pun-stats h2, #pun-status .item3,
 #pun-ulinks .item3, #pun-ulinks .item4, #pun-ulinks .item5, #pun-ulinks .item6, #pun-ulinks .item7:nth-child(2),
-.forum h2 .item1, .forum h2 .item2, .forum h2, .usertable h2, .formal h2 {
+.forum h2 .item1, .forum h2 .item2, .forum h2, .usertable h2, .formal h2,
+.topic h2, .topic a.sharelink,
+#pun-live-rusff {
   display: none !important;
 }

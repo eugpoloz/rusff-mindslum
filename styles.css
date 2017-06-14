@@ -592,7 +592,7 @@ div[id*='pun-multi'] .checkfield label {
   top: -2px;
 }
 
-#topic-users-in a:after {
+#topic-users-in a:not(:last-of-type):after {
   content: ',';
   color: black;
 }

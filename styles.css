@@ -944,34 +944,104 @@ div[id*='pun-multi'] .checkfield label {
 
 #viewprofile {
   position: relative;
+  width: 100%;
+  padding: 0 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#viewprofile table, #viewprofile tbody, #viewprofile tr, #viewprofile td {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#viewprofile #profile-right {
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  width: auto;
+  background: #f3f0eb url(http://co.forum4.ru/files/0017/ce/9f/74968.png) center left repeat;
+  font-size: 14px;
+}
+
+#viewprofile #profile-right li {
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+#viewprofile #profile-right li:nth-of-type(2) {
+  display: none;
 }
 
 #viewprofile #profile-left {
-  display: block;
-  width: auto;
-  position: relative;
-  text-align: center;
-  border-radius: 10px;
-  background: #edf0e4;
-  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  padding: 0.5em 0;
-  line-height: 1.5;
-  font-size: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 200px;
+  flex: 0 0 22.5rem;
+  align-self: stretch;
+  width: 22.5em;
+  height: 100%;
+  padding: 0 1rem 42px 3rem;
+  overflow: hidden;
+  background: #fff url(http://co.forum4.ru/files/0017/ce/9f/32277.png) -1rem 18rem no-repeat;
+  z-index: 2;
 }
 
-/* ???????????! */
-#viewprofile li, #setmods dl {
-  padding: 0 0 0 16em;
-  margin-bottom: 0.2em;
+#viewprofile #profile-left * {
+  width: 100%;
+}
+
+#viewprofile #profile-left li {
+  order: 1;
+}
+
+#viewprofile #profile-left li:not(#profile-name):not(#profile-title) {
+  order: 0;
+}
+
+#viewprofile #profile-left li:not(#profile-name):not(#profile-title) {
+  position: relative;
+  width: auto;
+  margin: 1.1rem auto 0;
+}
+#viewprofile #profile-left li:not(#profile-name):not(#profile-title) div {
+  width: auto;
+  position: relative;
+  line-height: 1;
+  padding: 0;
+}
+
+#viewprofile #profile-left li:not(#profile-name):not(#profile-title):after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #bfbdba;
+}
+
+#viewprofile #profile-left li:not(#profile-name):not(#profile-title) img {
+  box-sizing: content-box;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin: 0;
+  max-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 #viewprofile li span {
-  float: left;
   text-align: right;
-  width: 18em;
-  margin-left: -15em;
+  width: 35%;
   padding: 0.5em 1em;
   font-weight: bold;
 }
@@ -1729,6 +1799,7 @@ body {
   font-size: 10px;
   font-family: 'Cormorant', Verdana, sans-serif;
   line-height: 1;
+  overflow-x: hidden;
 }
 
 strong {

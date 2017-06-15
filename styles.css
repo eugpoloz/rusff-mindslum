@@ -182,7 +182,7 @@
   padding: .5em 1rem .5em 25rem;
   box-sizing: border-box;
   line-height: 1;
-  z-index: 100;
+  z-index: 1000;
 }
 
 #pun-searchposts .post h3 span a {

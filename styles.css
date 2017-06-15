@@ -1228,7 +1228,7 @@ div[id*='pun-multi'] .checkfield label {
 /* Statistics
 -------------------------------------------------------------*/
 #pun-stats.section {
-  padding: 1.5em 0;
+  padding: 1.5em 1em 1.5em 0;
 }
 
 #pun-stats .container {
@@ -1999,11 +1999,13 @@ ULINKS
   color: #fff;
 }
 
+.isguest #pun-ulinks li.item1 a:before,
 #pun-ulinks li.item2 a:before {
   background-image: url(http://co.forum4.ru/files/0017/ce/9f/42255.png);
 
 }
 
+.isguest #pun-ulinks li.item1 a:after,
 #pun-ulinks li.item2 a:after {
   content: 'Here’s my station \A But if you say just one \A word I’ll stay with you';
 }
@@ -2071,6 +2073,10 @@ PUN-STATUS
   font-size: 0;
 }
 
+.isguest #pun-status .container .item2 {
+  font-size: 13px;
+}
+
 #pun-status .container .item1:before,
 #pun-status .container .greeting-icon {
   content: '';
@@ -2088,21 +2094,32 @@ PUN-STATUS
   background-size: cover;
 }
 
+.isguest #pun-status .container .item1,
 #pun-status .container strong {
   display: inline-block;
   font-weight: bold;
-  font-size: 13px;
   font-family: 'Minion Pro', sans-serif;
   text-transform: lowercase;
   font-variant: small-caps;
 }
 
+#pun-status .container strong,
+.isguest #pun-status .container .item1:after {
+  font-size: 13px;
+}
+
+.isguest #pun-status .container .item1:after,
 #pun-status .container strong:before {
   display: block;
   font-weight: 400;
   white-space: pre;
 }
 
+.isguest #pun-status .container .item2 {
+  display: inline;
+}
+
+.isguest #pun-status .container .item2,
 #pun-status .container .item2 strong {
   font-size: 10px;
   transform: translateY(7px);
@@ -2116,6 +2133,11 @@ PUN-STATUS
 #pun-status .container .item1 strong:after {
   content: '?';
   font-weight: 400;
+}
+
+.isguest #pun-status .container .item1:after {
+  content: 'That\'s you, \A                  Guest? \A';
+  margin: 0.3em 0;
 }
 
 #pun-status .container .item2 strong:before {

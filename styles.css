@@ -3006,6 +3006,10 @@ CUSTOM SCROLLBAR
   background-position: top center, bottom center, center;
   border-radius: 10px;
 }
+::selection {
+  background-color: rgba(14, 135, 119, .8);
+  color: #fff;
+}
 
 /***
 HIDE UNNECCESSARY ELEMS 

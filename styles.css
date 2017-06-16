@@ -899,6 +899,44 @@ div[id*='pun-multi'] .checkfield label {
   font-size: 1rem;
 }
 
+/* Register and Login
+-------------------------------------------------------------*/
+#login, #request_pass, #register {
+  font-size: 14px;
+  margin: 0 2.25rem;
+  line-height: 1.35;
+}
+
+#login p.formsubmit,
+#request_pass p.formsubmit,
+#register p.formsubmit {
+  margin: 1.5rem 0;
+}
+
+#login .fs-box.inline {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#login .fs-box.inline > *:not(first-child) {
+  margin-right: 2rem;
+}
+
+#login p.inputfield:not(.required) {
+  display: none;
+}
+
+#register .info-box {
+  margin: 1rem 0;
+  padding: 1.5rem 2rem;
+  background: rgba(255,255,255,.75) url(http://co.forum4.ru/files/0017/ce/9f/74968.png) center left repeat;
+}
+
+#register .info-box .legend {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
 /* Profile
 -------------------------------------------------------------*/
 #profile .container {

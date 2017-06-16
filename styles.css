@@ -150,7 +150,7 @@
 }
 
 #pun-userlist .main th:nth-of-type(3):before {
-/*   content: 'Îäîáðÿþò'; */
+/*   content: '&#206;&#228;&#238;&#225;&#240;&#255;&#254;&#242;'; */
   font-size: 1rem;
 }
 
@@ -417,7 +417,7 @@
   padding-left: 0;
 }
 
-/* ËÇ ìàñêè */
+/* &#203;&#199; &#236;&#224;&#241;&#234;&#232; */
 .punbb .post-author .pa-fld1 .masked-char {
   width: 190px;
 }
@@ -1198,7 +1198,7 @@ div[id*='pun-multi'] .checkfield label {
 #profile9 fieldset:nth-of-type(2) legend:after {
    display: block;
    margin: 0.5em 0 0 0;
-   content: 'Ôóíêöèÿ îòêëþ÷åíà.';
+   content: '&#212;&#243;&#237;&#234;&#246;&#232;&#255; &#238;&#242;&#234;&#235;&#254;&#247;&#229;&#237;&#224;.';
    font: 1.4rem georgia, serif;
    text-transform: none;
 }
@@ -1476,7 +1476,7 @@ fieldset#post-preview .post-content {
     box-sizing: border-box !important;
 }
 
-/* Ñêðèïò ðàñøèðåííîãî ïåðåíîñà ñîîáùåíèé */
+/* &#209;&#234;&#240;&#232;&#239;&#242; &#240;&#224;&#241;&#248;&#232;&#240;&#229;&#237;&#237;&#238;&#227;&#238; &#239;&#229;&#240;&#229;&#237;&#238;&#241;&#224; &#241;&#238;&#238;&#225;&#249;&#229;&#237;&#232;&#233; */
 .pgl, .forum_name {
   margin-bottom: .8em;
 }
@@ -1566,6 +1566,7 @@ fieldset legend span {
 #post {
   padding: 0 2rem;
   margin: 1rem auto 2rem;
+  font-size: 12px;
 }
 
 #post.formal {

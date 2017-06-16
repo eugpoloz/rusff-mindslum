@@ -150,7 +150,7 @@
 }
 
 #pun-userlist .main th:nth-of-type(3):before {
-/*   content: '&#206;&#228;&#238;&#225;&#240;&#255;&#254;&#242;'; */
+/*   content: 'Îäîáðÿþò'; */
   font-size: 1rem;
 }
 
@@ -168,7 +168,7 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   margin-bottom: 1.5rem;
   background: #f3f0eb url(http://co.forum4.ru/files/0017/ce/9f/74968.png) center left repeat;
   font-size: 14px;
@@ -417,7 +417,7 @@
   padding-left: 0;
 }
 
-/* &#203;&#199; &#236;&#224;&#241;&#234;&#232; */
+/* ËÇ ìàñêè */
 .punbb .post-author .pa-fld1 .masked-char {
   width: 190px;
 }
@@ -666,6 +666,107 @@ div[id*='pun-multi'] .checkfield label {
 
 /* MESSAGES
 -------------------------------------------------------------*/
+#pun-messages #messages table, #pun-messages #messages tbody,
+#pun-messages #messages tr {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+}
+
+/* TODO: ADAPT THIS */
+#pun-messages #messages thead {
+  display: none;
+}
+
+#pun-messages #messages tr {
+  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  max-width: 949px;
+  min-height: 102px;
+  margin: 7.5px 0;
+  padding-left: 152px;
+  text-align: left;
+  background-color: #fff;
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/74968.png);
+  background-repeat: repeat;
+  background-position: center left;
+  z-index: 2;
+  overflow: hidden;
+}
+
+#pun-messages #messages tr:before {
+  content: '';
+  position: absolute;
+  background: url(http://co.forum4.ru/files/0017/ce/9f/22917.png) center no-repeat;
+  background-size: contain;
+  width: 35.9rem;
+  height: 100%;
+  right: 6rem;
+  opacity: .2;
+  z-index: -1;
+}
+
+#pun-messages #messages tr:after {
+  content: '';
+  position: absolute;
+  background: url(http://co.forum4.ru/files/0017/ce/9f/80450.jpg) center no-repeat;
+  width: 14px;
+  height: 100%;
+  right: 0;
+  z-index: -1;
+}
+
+#pun-messages #messages tr.inew:after {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/20333.jpg);
+}
+
+#pun-messages #messages td {
+  display: flex;
+  flex: 1 1 100%;
+  width: 100%;
+  padding: 0;
+  font-family: 'Cormorant', sans-serif;
+  letter-spacing: .3px;
+}
+
+#pun-messages #messages td.tc2.pmtc22, #pun-messages #messages td.tc3 {
+  font-size: 12px !important;
+}
+
+#pun-messages #messages td.tc2.pmtc22:before {
+  content: "От:";
+  display: inline;
+  margin-right: .4rem;
+}
+
+#pun-messages #messages td.tc3 {
+  font-style: oblique;
+}
+
+#pun-messages #messages .tcl {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+#pun-messages #messages .tcl a:not(:hover) {
+  color: #395e59;
+}
+
+#pun-messages #messages .tcr {
+  font-size: 11px;
+  color: #0e8777;
+}
+
 #pun-messages #post-form .checkfield {
   display: inline-block !important;
   width: 100% !important;
@@ -677,18 +778,17 @@ div[id*='pun-multi'] .checkfield label {
 #pun-messages .post h3 {
   margin: 0;
   text-align: center;
-  padding: 0 0 1em 0;
-  font: 0.7rem Verdana, sans-serif;
+  padding: 1rem 0;
+  font: 10px Cormorant, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   position: relative;
-  top: -3em;
+  top: -2.5rem;
 }
 
 #pun-messages .post h3 span {
-  padding: 0 0 0.25em 0;
-  color: #eb6e80;
+  padding: 0 0 0.25rem 0;
 }
 
 #pun-messages .inputfield {
@@ -704,8 +804,30 @@ div[id*='pun-multi'] .checkfield label {
   width: 25%;
 }
 
+#pun-messages .tcl div.icon {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 186px;
+  height: 118px;
+  margin: 0;
+  background: url(http://co.forum4.ru/files/0017/ce/9f/32277.png) center no-repeat;
+  z-index: -1;
+}
+
+#pun-messages .tcl div.icon.inew {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/25983.png);
+}
+
 #messages fieldset {
   padding: 0 0 0 1em;
+}
+
+#pun-messages #profile .container {
+  flex-wrap: wrap;
+  min-height: 0;
 }
 
 #messages .postlink input.button {
@@ -716,22 +838,6 @@ div[id*='pun-multi'] .checkfield label {
 
 #pun-messages .post-links ul li.pl-email {
   margin-left: auto !important;
-}
-
-#messages div.icon {
-  margin-left: 0;
-}
-
-#messages div.icon:after {
-  border: none;
-  width: 22px;
-  border-bottom: 1px solid rgb(207, 207, 207);
-  box-shadow: 0px -1px 0px 0px rgb(122, 122, 122);
-  margin: 53px 0 0 2px;
-}
-
-#messages .tclcon {
-  padding-left: 1em;
 }
 
 #messages .pmtc22 {
@@ -746,7 +852,11 @@ div[id*='pun-multi'] .checkfield label {
 }
 
 #messages .pmtc24 {
-  padding: 0.9em 1em 0.5em !important;
+  position: absolute;
+  right: 0;
+  flex: 0 0 auto;
+  padding: 0 2.4rem 0 0 !important;
+  text-align: right;
 }
 
 #pun-messages fieldset:first-of-type {
@@ -757,7 +867,7 @@ div[id*='pun-multi'] .checkfield label {
   position: relative;
   width: 100%;
   text-align: center;
-  font: 2.5rem Cormorant, sans-serif;
+  font: 2.2rem Cormorant, sans-serif;
   line-height: 1;
   padding: 0;
   margin: 0 auto 0.5em 0;
@@ -771,8 +881,13 @@ div[id*='pun-multi'] .checkfield label {
 }
 
 #pun-messages .post-body {
-  margin: 2.5em 0 0;
+  margin: 2.5em 0 5.3rem;
   padding: 0;
+}
+
+#messages {
+  position: relative;
+  z-index: 10000;
 }
 
 #messages .linksb {
@@ -780,17 +895,18 @@ div[id*='pun-multi'] .checkfield label {
 }
 
 #pun-messages .post-author {
-  width: 100%;
   float: none;
+  width: 100%;
+  height: auto;
+  min-height: auto;
+  flex: 1 1 100%;
   padding: 5px;
   margin: 0 auto;
-  -webkit-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  -moz-box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
-  box-shadow: 0px 5px 5px -6px rgba(0,0,0,0.5);
+  background-position: -2.2rem -.6rem;
 }
 
  #pun-messages .post-author ul {
-  padding: 0 5px 0 110px;
+  padding: 0 .5rem 0 13rem;
   position: relative;
   min-height: 105px;
   display: -webkit-box;
@@ -846,7 +962,9 @@ div[id*='pun-multi'] .checkfield label {
 }
 
 #pun-messages .post-author .pa-avatar {
-  padding: 0;
+  position: absolute;
+  left: 2.5rem;
+  top: .5rem;
   width: fit-content;
   text-align: left;
   -webkit-box-ordinal-group: 1;
@@ -863,9 +981,8 @@ div[id*='pun-multi'] .checkfield label {
   -ms-flex-item-align: stretch;
   align-self: stretch;
   margin: 0;
-  position: absolute;
-  left: 5px;
-  top: 3px;
+  padding: 0;
+  line-height: 1;
 }
 
 #pun-messages .post-author .pa-avatar img {
@@ -941,6 +1058,7 @@ div[id*='pun-multi'] .checkfield label {
 -------------------------------------------------------------*/
 #profile .container {
   position: relative;
+  width: 100%;
   max-width: 954px;
   min-height: 409px;
   margin: 0 auto 1rem 0;
@@ -1198,7 +1316,7 @@ div[id*='pun-multi'] .checkfield label {
 #profile9 fieldset:nth-of-type(2) legend:after {
    display: block;
    margin: 0.5em 0 0 0;
-   content: '&#212;&#243;&#237;&#234;&#246;&#232;&#255; &#238;&#242;&#234;&#235;&#254;&#247;&#229;&#237;&#224;.';
+   content: 'Ôóíêöèÿ îòêëþ÷åíà.';
    font: 1.4rem georgia, serif;
    text-transform: none;
 }
@@ -1476,7 +1594,7 @@ fieldset#post-preview .post-content {
     box-sizing: border-box !important;
 }
 
-/* &#209;&#234;&#240;&#232;&#239;&#242; &#240;&#224;&#241;&#248;&#232;&#240;&#229;&#237;&#237;&#238;&#227;&#238; &#239;&#229;&#240;&#229;&#237;&#238;&#241;&#224; &#241;&#238;&#238;&#225;&#249;&#229;&#237;&#232;&#233; */
+/* Ñêðèïò ðàñøèðåííîãî ïåðåíîñà ñîîáùåíèé */
 .pgl, .forum_name {
   margin-bottom: .8em;
 }
@@ -1566,7 +1684,6 @@ fieldset legend span {
 #post {
   padding: 0 2rem;
   margin: 1rem auto 2rem;
-  font-size: 12px;
 }
 
 #post.formal {

@@ -150,7 +150,7 @@
 }
 
 #pun-userlist .main th:nth-of-type(3):before {
-/*   content: '&#206;&#228;&#238;&#225;&#240;&#255;&#254;&#242;'; */
+/*   content: 'Îäîáðÿþò'; */
   font-size: 1rem;
 }
 
@@ -417,7 +417,7 @@
   padding-left: 0;
 }
 
-/* &#203;&#199; &#236;&#224;&#241;&#234;&#232; */
+/* ËÇ ìàñêè */
 .punbb .post-author .pa-fld1 .masked-char {
   width: 190px;
 }
@@ -902,9 +902,14 @@ div[id*='pun-multi'] .checkfield label {
 /* Profile
 -------------------------------------------------------------*/
 #profile .container {
-  margin: 0 0 1em;
-  padding-left: 19em;
+  position: relative;
+  max-width: 954px;
+  min-height: 409px;
+  margin: 0 auto 1rem 0;
+  padding: 1.5rem 3rem 2rem 23rem;
   line-height: 1.5;
+  background: #f3f0eb url(http://co.forum4.ru/files/0017/ce/9f/74968.png) center left repeat;
+  font-size: 14px;
 }
 
 #profile fieldset * {
@@ -913,31 +918,71 @@ div[id*='pun-multi'] .checkfield label {
 
 #profile em {
   display: block;
-  margin: -0.5em 0 1em;
+  margin: -0.5rem 0 1rem;
+}
+
+#profile .container:not(#profile2) p.infofield {
+  margin: 1rem 0;
+  padding: 1.5rem;
+  background: rgba(255,255,255,.75) url(http://co.forum4.ru/files/0017/ce/9f/74968.png) center left repeat;
+}
+
+#profile .fs-box.inline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+#profile .fs-box.inline > *:not(first-child) {
+  margin-right: 2rem;
+}
+
+#profile p.formsubmit {
+  margin-top: 1.5rem;
 }
 
 #profilenav {
-  float: left;
-  position: relative;
-  top: 1em;
-  width: 17em;
-  margin-left: -19em;
-  display: inline;
-  }
-
-#profilenav li {
-  padding-bottom: 1em;
-  font-weight: bold;
+  position: absolute;
+  top: 0;
+  width: 20rem;
+  height: 100%;
+  margin-left: -23rem;
+  background-color: #fff;
 }
 
-#viewprofile ul, #profilenav ul {
-  padding: 1em 1em 0.5em 1em;
-  box-sizing: border-box;
+#viewprofile ul {
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+#profilenav ul, #profilenav li {
+  padding: 0;
+}
+
+#profilenav li {
+  width: 100%;
+}
+
+#profilenav li a {
+  display: block;
+  width: 100%;
+  padding: .5rem 1.5rem .55rem;
+}
+
+#profilenav li.isactive a {
+  font-weight: bold;
+  background-color: #f3f0eb;
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/17209.jpg), url(http://co.forum4.ru/files/0017/ce/9f/74968.png);
+  background-position: left center;
+  background-repeat: repeat-y, repeat;
+  pointer-events: none;
 }
 
 #viewprofile h2, #profilenav h2 {
   padding: 0;
-  margin: 0 auto 0.5em;
+  margin: 0 auto 0.5rem;
   font-weight: bold;
   text-align: center;
 }
@@ -1066,9 +1111,18 @@ div[id*='pun-multi'] .checkfield label {
   text-align: left;
 }
 
+#profile4 .fs-box {
+  position: relative;
+  padding-right: 20rem;
+}
+
 .punbb img.avatardemo {
-  float: right;
-  margin: 0 0 1em 2em
+  float: none !important;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(calc(-50% - 14px));
+  margin: 0;
 }
 
 #profile-uploads, #profile-uploads tbody, #profile-uploads tr {
@@ -1106,7 +1160,7 @@ div[id*='pun-multi'] .checkfield label {
 #profile9 fieldset:nth-of-type(2) legend:after {
    display: block;
    margin: 0.5em 0 0 0;
-   content: '&#212;&#243;&#237;&#234;&#246;&#232;&#255; &#238;&#242;&#234;&#235;&#254;&#247;&#229;&#237;&#224;.';
+   content: 'Ôóíêöèÿ îòêëþ÷åíà.';
    font: 1.4rem georgia, serif;
    text-transform: none;
 }
@@ -1384,7 +1438,7 @@ fieldset#post-preview .post-content {
     box-sizing: border-box !important;
 }
 
-/* &#209;&#234;&#240;&#232;&#239;&#242; &#240;&#224;&#241;&#248;&#232;&#240;&#229;&#237;&#237;&#238;&#227;&#238; &#239;&#229;&#240;&#229;&#237;&#238;&#241;&#224; &#241;&#238;&#238;&#225;&#249;&#229;&#237;&#232;&#233; */
+/* Ñêðèïò ðàñøèðåííîãî ïåðåíîñà ñîîáùåíèé */
 .pgl, .forum_name {
   margin-bottom: .8em;
 }
@@ -1460,12 +1514,11 @@ fieldset legend {
 }
 
 fieldset legend span {
-  padding: 0.5em 0 !important;
+  padding: 0.3em 0;
   display: block;
   width: 100%;
   text-align: center;
   font: bold 2.5rem Cormorant, sans-serif;
-  padding: 0 0 1em 0;
 }
 
 #pun-main fieldset:first-of-type legend span {

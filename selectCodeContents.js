@@ -4,7 +4,7 @@
   CODE_BOX_NODES.forEach(el => {
     const LEGEND = el.querySelector('.legend');
     const CODE = el.querySelector('.blockcode pre');
-    LEGEND.innerHTML = '<a href="#" class="js-select-code">Нажмите, чтобы выделить код:</a>';
+    LEGEND.innerHTML = '<a href="#" class="js-select-code">Нажмите, чтобы выделить код</a>:';
     
     return el.querySelector('.js-select-code').addEventListener('click', (e) => {
       e.preventDefault();

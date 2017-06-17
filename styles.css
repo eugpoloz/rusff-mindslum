@@ -150,7 +150,6 @@
 }
 
 #pun-userlist .main th:nth-of-type(3):before {
-/*   content: '&#206;&#228;&#238;&#225;&#240;&#255;&#254;&#242;'; */
   font-size: 1rem;
 }
 
@@ -662,7 +661,7 @@ div[id*='pun-multi'] .checkfield label {
 }
 
 #pun-messages #messages td.tc2.pmtc22:before {
-  content: "&#206;&#242;:";
+  content: "От:";
   display: inline;
   margin-right: .4rem;
 }
@@ -1232,22 +1231,6 @@ div[id*='pun-multi'] .checkfield label {
     margin-bottom: 1em;
 }
 
-/* #profile8 fieldset:nth-of-type(5), #profile9 fieldset .fs-box {
-    display: none;    
-}
-
-#profile9 fieldset:nth-of-type(2) legend:after {
-   display: block;
-   margin: 0.5em 0 0 0;
-   content: '&#212;&#243;&#237;&#234;&#246;&#232;&#255; &#238;&#242;&#234;&#235;&#254;&#247;&#229;&#237;&#224;.';
-   font: 1.4rem georgia, serif;
-   text-transform: none;
-}
-
-#profile #profilenav .item9 {
-    display: none !important;
-} */
-
 /* User list
 -------------------------------------------------------------*/
 #pun-userlist .usertable .container {
@@ -1517,7 +1500,6 @@ fieldset#post-preview .post-content {
     box-sizing: border-box !important;
 }
 
-/* &#209;&#234;&#240;&#232;&#239;&#242; &#240;&#224;&#241;&#248;&#232;&#240;&#229;&#237;&#237;&#238;&#227;&#238; &#239;&#229;&#240;&#229;&#237;&#238;&#241;&#224; &#241;&#238;&#238;&#225;&#249;&#229;&#237;&#232;&#233; */
 .pgl, .forum_name {
   margin-bottom: .8em;
 }

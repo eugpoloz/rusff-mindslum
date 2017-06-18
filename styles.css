@@ -220,9 +220,10 @@
 }
 
 .punbb .post .container {
-  display: inherit;
-  flex-direction: inherit;
-  flex-wrap: inherit;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   width: 100%;
 }
 
@@ -423,9 +424,11 @@
   float: none !important;
   border: 0 !important;
   padding: 0 !important;
+  justify-content: flex-end;
 }
 
-.punbb div.post-rating a, .punbb div.post-vote a {
+.punbb div.post-rating a,
+.punbb div.post-vote a {
   font-size: 100% !Important;
 }
 

@@ -2925,14 +2925,6 @@ NEW BEAUTIFUL TOPICS
   margin-left: 3px;
 }
 
-/* TODO: ADAPT THIS */
-#pun-viewforum thead, #pun-viewforum .tc2, #pun-viewforum .tc3,
-#pun-viewforum .tcl .byuser, #pun-viewforum .tcl .stickytext,
-#pun-searchtopics thead, #pun-searchtopics .tc2, #pun-searchtopics .tc3,
-#pun-searchtopics .tcl .byuser, #pun-searchtopics .tcl .stickytext {
-  display: none;
-}
-
 #pun-viewforum .tcl div.icon,
 #pun-searchtopics .tcl div.icon {
   float: none;
@@ -2971,6 +2963,46 @@ NEW BEAUTIFUL TOPICS
 }
 
 /***
+ARROWS
+***/
+.scroll-arrow__container {
+  position: fixed;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
+  width: 28px;
+  height: 354px;
+}
+
+.scroll-arrow {
+  display: block;
+  width: 28px;
+  height: 170px;
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/18862.png);
+  background-repeat: no-repeat;
+}
+
+.punbb .scroll-arrow:hover,
+.punbb .scroll-arrow:focus,
+.punbb .scroll-arrow:active {
+  background-image: url(http://co.forum4.ru/files/0017/ce/9f/92846.png);
+  background-color: transparent;
+}
+
+.scroll-arrow--top {
+  background-position: top center;
+}
+
+.scroll-arrow--bottom {
+  background-position: bottom center;
+}
+
+/***
 CUSTOM SCROLLBAR
 ***/
 ::-webkit-scrollbar {
@@ -2996,6 +3028,10 @@ CUSTOM SCROLLBAR
 /***
 HIDE UNNECCESSARY ELEMS 
 ***/
+#pun-viewforum thead, #pun-viewforum .tc2, #pun-viewforum .tc3,
+#pun-viewforum .tcl .byuser, #pun-viewforum .tcl .stickytext,
+#pun-searchtopics thead, #pun-searchtopics .tc2, #pun-searchtopics .tc3,
+#pun-searchtopics .tcl .byuser, #pun-searchtopics .tcl .stickytext,
 .divider, .acchide,
 #pun-index .crumbs,
 #pun-navlinks h2, #pun-ulinks h2, #pun-status h2,

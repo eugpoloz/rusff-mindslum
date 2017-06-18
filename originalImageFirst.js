@@ -1,25 +1,28 @@
 (function originalImageFirst() {
   const FROM_PC = document.querySelector('#image-area-tcon-computer');
-  const UPLOAD = FROM_PC.querySelector('#upload-button');
 
-  function setOriginalImgFirst() {
-    var selectInterval;
+  if (FROM_PC !== null) {
+    const UPLOAD = FROM_PC.querySelector('#upload-button');
 
-    function selectOriginal() {
-      const SELECT = FROM_PC.querySelector('#image-insert-format');
+    function setOriginalImgFirst() {
+      var selectInterval;
 
-      if (SELECT.hasChildNodes()) {
-        const OPTIONS = SELECT.querySelectorAll('option');
-        const ORIG_FIRST = SELECT.querySelector('option[value="source"]');
-        OPTIONS.forEach(option => option.removeAttribute('selected'));
-        clearInterval(selectInterval);
+      function selectOriginal() {
+        const SELECT = FROM_PC.querySelector('#image-insert-format');
 
-        return ORIG_FIRST.selected = 'selected';
+        if (SELECT.hasChildNodes()) {
+          const OPTIONS = SELECT.querySelectorAll('option');
+          const ORIG_FIRST = SELECT.querySelector('option[value="source"]');
+          OPTIONS.forEach(option => option.removeAttribute('selected'));
+          clearInterval(selectInterval);
+
+          return ORIG_FIRST.selected = 'selected';
+        }
       }
+
+      selectInterval = setInterval(selectOriginal, 200);
     }
 
-    selectInterval = setInterval(selectOriginal, 200);
+    UPLOAD.addEventListener('click', setOriginalImgFirst, false);
   }
-
-  UPLOAD.addEventListener('click', setOriginalImgFirst, false);
 })();
